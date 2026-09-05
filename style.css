@@ -174,13 +174,13 @@ section{
 
 @keyframes words {
     0%, 20%{
-        content: "اینفلوینسری";
+        content: "اینفلوینسر";
     }
     21%, 40%{
-        content: "ادیتوری";
+        content: "ادیتور";
     }
     41%, 60%{
-        content: "برنامه نویسی";
+        content: "برنامه نویس";
     }
     61%, 80%{
         content: "مدرس هوش مصنوعی";
@@ -275,7 +275,7 @@ section{
 
     .typing-text{
         font-size: 2rem;
-        
+
     }
 
     .main-container .image{
