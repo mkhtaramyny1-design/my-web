@@ -174,7 +174,7 @@ section{
 
 @keyframes words {
     0%, 20%{
-        content: "اینفلوینسر";
+        content: "طراح گرافیک";
     }
     21%, 40%{
         content: "ادیتور";
@@ -183,10 +183,10 @@ section{
         content: "برنامه نویس";
     }
     61%, 80%{
-        content: "مدرس هوش مصنوعی";
+        content: "گیمر";
     }
     81%, 100%{
-        content: "طراح گرافیک";
+        content: "اینفلوینسر";
     }
 }
 
