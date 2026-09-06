@@ -298,3 +298,231 @@ section{
 
 
 }
+
+/* ===== Contact ===== */
+
+.contact-page {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: black;
+}
+
+.contact-box{
+    width: 420px;
+    padding: 45px 35px;
+
+    text-align: center;
+
+    background: #0a0a0a;
+
+    border: 2px solid rgb(159, 18, 18);
+    border-radius: 20px;
+
+    box-shadow: 0 0 15px #ff2020
+    0 0 40px rgb(159, 18, 18);
+}
+
+.contact-box h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-box h1 span {
+    color: rgb(159, 18, 18);
+
+    text-shadow: 0 0 5px rgb(159, 18, 18)
+    0 0 15px rgb(159, 18, 18);
+}
+
+.contact-box p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+.phone{
+    color: rgb(159, 18, 18);
+    font-size: 25px;
+    font-weight: bold;
+
+    padding: 15px;
+
+    border: 1px solid  rgb(159, 18, 18);
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 0 10px rgb(255, 32, 32, 0.4);
+}
+
+.back-btn{
+    display: inline-block;
+
+    padding: 12px 28px;
+    background: rgb(159, 18, 18);
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.back-btn :hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 15px rgb(159, 18, 18)
+    0 0 30px rgb(159, 18, 18);
+}
+
+/* موبایل */
+
+@media (max-width:500px) {
+
+    .contact-box{
+        width: 90%;
+        padding: 35px 20px;
+    }
+
+    .contact-box h1 {
+        font-size: 30px;
+    }
+
+    .phone{
+        font-size: 21px;
+    }
+}
+
+/*===== About =====*/
+
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #000;
+}
+
+.about-box {
+    width: 420px;
+    padding: 45px 35px;
+
+    text-align: center;
+
+    background: #000;
+
+    border: 2px solid rgb(159, 18, 18);
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 15px rgb(159, 18, 18),
+        0 0 40px rgb(159, 18, 18);
+}
+
+.about-box h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-box h1 span {
+    color: rgb(159, 18, 18);
+
+    text-shadow:
+        0 0 5px rgb(159, 18, 18),
+        0 0 15px rgb(159, 18, 18);
+}
+
+.about-box p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 2;
+
+    margin-bottom: 30px;
+}
+
+.back-btn {
+    display: inline-block;
+
+    padding: 12px 28px;
+
+    background: rgb(159, 18, 18);
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 0 15px rgb(159, 18, 18),
+        0 0 30px rgb(159, 18, 18);
+}
+
+
+/*===== موبایل =====*/
+
+@media (max-width: 500px) {
+
+    .about-box {
+        width: 90%;
+        padding: 35px 20px;
+    }
+
+    .about-box h1 {
+        font-size: 30px;
+    }
+
+    .about-box p {
+        font-size: 15px;
+    }
+}
+
+/* دکمه دانلود رزومه */
+.download-btn {
+    display: inline-block;
+    padding: 14px 70px;
+    background: rgb(159, 18, 18);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* وقتی موس روی دکمه می‌رود */
+.download-btn:hover {
+    background: black;
+    color: rgb(159, 18, 18);
+
+    /* نور قرمز دور دکمه */
+    box-shadow:
+        0 0 10px rgb(159, 18, 18),
+        0 0 25px rgb(159, 18, 18),
+        0 0 50px rgb(159, 18, 18);
+
+    transform: scale(1.03);
+}
