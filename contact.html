@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>تماس با من</title>
+        <title>ارتباط با من</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -13,19 +13,28 @@
 
             <div class="contact-box">
 
-            <h1>تماس <span>با من </span></h1>
+            <h1>ایمیل <span>کن </span></h1>
         
-        <p>جهت ارتباط و هماهنگی تماس بگیرید</p>
+        <p>جهت ارتباط و هماهنگی ایمیل بزنید</p>
 
         <div class="phone">
-            09360859336
-     </div>
+            <span id="email">mokhtaramini97@gmail.com</span>
+            <button onclick="copyEmail()" class="copy-btn" title="کپی ایمیل">📋</button>
+        </div>
 
      <a href="index.html" class="back-btn">بازگشت</a>
 
     </div>
 
     </div>
-
+    <script>
+        function copyEmail() {
+            const email = document.getElementById("email").textContent;
+        
+            navigator.clipboard.writeText(email).then(function() {
+                alert("ایمیل کپی شد ✅");
+            });
+        }
+        </script>
     </body>
 </html>
